@@ -1,3 +1,4 @@
+import mongoose from "mongoose";
 import { Schema } from "mongoose";
 const userSchema=new Schema(
   {
@@ -11,7 +12,7 @@ const userSchema=new Schema(
       unique:true
     },
     password:{
-      type:Stringc,
+      type:String,
       required:true
     },
     token:{
