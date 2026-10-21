@@ -20,7 +20,7 @@ const LandingPage = () => {
         <h1><span style={{color:"#FF9"}}>Connect</span>  with your Loved once</h1>
         <p>Cover a distance by Apna Video Call</p>
         <div role='button'>
-          <Link to={'/home'}>Get Started</Link>
+          <Link to={'/auth'}>Get Started</Link>
         </div>
        </div>
        <div>
