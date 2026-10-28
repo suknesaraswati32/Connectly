@@ -14,8 +14,7 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { AuthContext } from '../contexts/AuthContext';
 import { Snackbar } from '@mui/material';
-
-
+import style from '../styles/videoMeet.module.css'
 
 // TODO remove, this demo shouldn't need to reset the theme.
 
